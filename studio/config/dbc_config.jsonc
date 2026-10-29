@@ -16,7 +16,7 @@
    * 2. dbc-create-pool (if there is no configKeyAddress)
    * SOL: So11111111111111111111111111111111111111112 | USDC: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v | any other token address
    */
-  "quoteMint": "So11111111111111111111111111111111111111112",
+  "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
 
   /* dbcConfig is only used in the following actions:
    * 1. dbc-create-config
@@ -36,16 +36,16 @@
      * 1. initialMarketCap
      * 2. migrationMarketCap
      */
-    // "initialMarketCap": 20, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
-    // "migrationMarketCap": 600, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
+    // "initialMarketCap": 1, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
+    // "migrationMarketCap": 2, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
 
     /* Only use the following parameters for buildCurveMode: 2 (buildCurveWithTwoSegments)
      * 1. initialMarketCap
      * 2. migrationMarketCap
      * 3. percentageSupplyOnMigration
      */
-    // "initialMarketCap": 20, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
-    // "migrationMarketCap": 600, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
+    // "initialMarketCap": 1, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
+    // "migrationMarketCap": 2, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
     // "percentageSupplyOnMigration": 20, // percentage of total token supply to be migrated
 
     /* Only use the following parameters for buildCurveMode: 3 (buildCurveWithLiquidityWeights)
@@ -53,8 +53,8 @@
      * 2. migrationMarketCap
      * 3. liquidityWeights
      */
-    // "initialMarketCap": 20, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
-    // "migrationMarketCap": 600, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
+    // "initialMarketCap": 1, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
+    // "migrationMarketCap": 2, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
     // "liquidityWeights": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], // a array of 16 liquidity weights for each liquidity segment in the curve
 
     /* Only use the following parameters for buildCurveMode: 4 (buildCurveWithMidPrice)
@@ -63,8 +63,8 @@
      * 3. midPrice
      * 4. percentageSupplyOnMigration
      */
-    // "initialMarketCap": 20, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
-    // "migrationMarketCap": 600, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
+    // "initialMarketCap": 1, // the market cap of the DBC token pool when the pool is created specified in terms of quoteMint (not in lamports)
+    // "migrationMarketCap": 2, // the market cap of the DBC token pool when the pool graduates specified in terms of quoteMint (not in lamports)
     // "midPrice": 0.001, // the mid-point price of the curve in terms of quoteMint
     // "percentageSupplyOnMigration": 20, // percentage of total token supply to be migrated
 
