@@ -23,7 +23,7 @@
    * 2. dbc-create-pool (if there is no --config flag indicated in the command)
    */
   "dbcConfig": {
-    "buildCurveMode": 0, // 0 - buildCurve | 1 - buildCurveWithMarketCap | 2 - buildCurveWithTwoSegments | 3 - buildCurveWithLiquidityWeights | 4 - buildCurveWithMidPrice | 5 - buildCurveWithCustomSqrtPrices
+    "buildCurveMode": 1, // 1 - buildCurve | 1 - buildCurveWithMarketCap | 2 - buildCurveWithTwoSegments | 3 - buildCurveWithLiquidityWeights | 4 - buildCurveWithMidPrice | 5 - buildCurveWithCustomSqrtPrices
 
     /* Only use the following parameters for buildCurveMode: 0 (buildCurve)
      * 1. percentageSupplyOnMigration
