@@ -3,7 +3,7 @@
   "rpcUrl": "https://api.mainnet-beta.solana.com", // mainnet: https://api.mainnet-beta.solana.com | devnet: https://api.devnet.solana.com | localnet: http://localhost:8899
 
   /* dryRun is required. If true, transactions will be simulated and not executed. If false, transactions will be executed. */
-  "dryRun": false, // Set to false only after you understand what will happen
+  "dryRun": true, // Set to false only after you understand what will happen
 
   /* keypairFilePath is required and will be the payer + signer for all transactions */
   "keypairFilePath": "./keypair.json",
@@ -72,7 +72,7 @@
      * 1. prices - array of decimal prices in ascending order (at least 2 elements).
      * 2. liquidityWeights - optional weights for each segment (length must be prices.length - 1)
      */
-    // "prices": [0.000000000000001, 5.00, 50.00, 100.06], // array of decimal prices (ascending order). First = starting price, Last = migration price
+    // "prices": [0.000000000000001, 100.06], // array of decimal prices (ascending order). First = starting price, Last = migration price
     // "liquidityWeights": [1, 2, 3], // optional: weights for each segment. If omitted, liquidity is distributed evenly
 
     /* Token Configuration */
