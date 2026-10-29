@@ -78,8 +78,8 @@
     /* Token Configuration */
     "token": {
       "totalTokenSupply": 99990000000, // total token supply (not in lamports)
-      "tokenBaseDecimal": 6, // token base decimal
-      "tokenQuoteDecimal": 9, // token quote decimal
+      "tokenBaseDecimal": 9, // token base decimal
+      "tokenQuoteDecimal": 6, // token quote decimal
       "tokenType": 0, // 0 - SPL Token | 1 - Token 2022
       "tokenAuthorityOption": 1, // 0 - CreatorUpdateAuthority | 1 - Immutable | 2 - PartnerUpdateAuthority | 3 - CreatorUpdateAndMintAuthority | 4 - PartnerUpdateAndMintAuthority (3 and 4 are only allowed for transfer hook configs)
       "leftover": 0 // leftover tokens in the bonding curve (claimable once pool migrates)
