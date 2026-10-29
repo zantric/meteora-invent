@@ -105,7 +105,7 @@
               }
               */
       },
-      "dynamicFeeEnabled": true, // If true, dynamic fee will add 20% of minimum base fee to the total fee.
+      "dynamicFeeEnabled": false, // If true, dynamic fee will add 20% of minimum base fee to the total fee.
       "collectFeeMode": 0, // 0 - Quote Token | 1 - Output Token
       "creatorTradingFeePercentage": 50, // Bonding curve trading fee sharing (0% to 100%) - 0% means all trading fees go to the partner
       /* Pool Creation Fee
