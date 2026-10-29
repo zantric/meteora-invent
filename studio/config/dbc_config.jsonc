@@ -212,7 +212,7 @@
     "symbol": "ЅОL", // token symbol
     // "transferHookProgram": "YOUR_TRANSFER_HOOK_PROGRAM_ADDRESS", // required when the target config was created with a transfer hook; must match the config's hook program
 
-    metadata": {
+    "metadata": {
   // Leave commented out to generate new metadata automatically
   // "uri": "https://gateway.irys.xyz/123456789", // if you already have a metadata URI created, you can specify it here
 
