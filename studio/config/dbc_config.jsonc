@@ -77,7 +77,7 @@
 
     /* Token Configuration */
     "token": {
-      "totalTokenSupply": 99990000000, // total token supply (not in lamports)
+      "totalTokenSupply": 9999000000, // total token supply (not in lamports)
       "tokenBaseDecimal": 9, // token base decimal
       "tokenQuoteDecimal": 6, // token quote decimal
       "tokenType": 0, // 0 - SPL Token | 1 - Token 2022
@@ -120,7 +120,7 @@
     /* Migration Configuration */
     "migration": {
       "migrationOption": 1, // 0 - Migrate to DAMM v1 | 1 - Migrate to DAMM v2
-      "migrationFeeOption": 3, // 0 - LP Fee 0.25% | 1 - LP Fee 0.3% | 2 - LP Fee 1% | 3 - LP Fee 2% | 4 - LP Fee 4% | 5 - LP Fee 6% | 6 - Customizable
+      "migrationFeeOption": 2, // 0 - LP Fee 0.25% | 1 - LP Fee 0.3% | 2 - LP Fee 1% | 3 - LP Fee 2% | 4 - LP Fee 4% | 5 - LP Fee 6% | 6 - Customizable
       "migrationFee": {
         "feePercentage": 0, // Percentage of fee taken from migration quote threshold once pool migrates (0% to 50%)
         "creatorFeePercentage": 0 // Percentage of the migrationFee.feePercentage claimable by creator (0% to 100%)
@@ -134,7 +134,7 @@
       //   "dynamicFee": 0, // 0: Disabled, 1: Enabled
       //   "poolFeeBps": 100, // The pool fee in basis points. Minimum 10, Maximum 1000 bps. Required when marketCapFeeSchedulerParams is configured.
       //   "compoundingFeeBps": 5000, // Portion of trading fees compounded back into pool liquidity (0 to 10000 bps). Only for collectFeeMode: 2 (Compounding)
-      //   "baseFeeMode": 3, // 3 - FeeMarketCapSchedulerLinear | 4 - FeeMarketCapSchedulerExponential (only for DAMM v2)
+      //   "baseFeeMode": 2, // 2 - FeeMarketCapSchedulerLinear | 4 - FeeMarketCapSchedulerExponential (only for DAMM v2)
       //   "marketCapFeeSchedulerParams": {
       //     "endingBaseFeeBps": 50, // The ending (minimum) base fee in basis points
       //     "numberOfPeriod": 100, // The total number of fee reduction periods
