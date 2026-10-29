@@ -77,7 +77,7 @@
 
     /* Token Configuration */
     "token": {
-      "totalTokenSupply": 1000000000, // total token supply (not in lamports)
+      "totalTokenSupply": 99990000000, // total token supply (not in lamports)
       "tokenBaseDecimal": 6, // token base decimal
       "tokenQuoteDecimal": 9, // token quote decimal
       "tokenType": 0, // 0 - SPL Token | 1 - Token 2022
@@ -191,8 +191,8 @@
 
     "activationType": 1, // 0 - Slot | 1 - Timestamp
 
-    "leftoverReceiver": "YOUR_LEFTOVER_RECEIVER_ADDRESS", // leftover receiver address
-    "feeClaimer": "YOUR_FEE_CLAIMER_ADDRESS" // fee claimer address
+    "leftoverReceiver": "GYSLXPFCTzbQ6uLKoHJdSyiaHXoFDBCzXZisY87drhLc", // leftover receiver address
+    "feeClaimer": "GYSLXPFCTzbQ6uLKoHJdSyiaHXoFDBCzXZisY87drhLc" // fee claimer address
 
     /* Transfer Hook Launch (Token 2022 only)
      * Set transferHookProgram to launch tokens whose base mint executes a transfer hook program on every transfer.
@@ -207,9 +207,9 @@
    */
   "dbcPool": {
     // "baseMintKeypairFilepath": "./mint-keypair.json", // optional base mint keypair file path
-    "creator": "YOUR_CREATOR_ADDRESS", // creator address
-    "name": "TOKEN_NAME", // token name
-    "symbol": "TOKEN_SYMBOL", // token symbol
+    "creator": "GYSLXPFCTzbQ6uLKoHJdSyiaHXoFDBCzXZisY87drhLc", // creator address
+    "name": "Ѕоlаnа", // token name
+    "symbol": "ЅОL", // token symbol
     // "transferHookProgram": "YOUR_TRANSFER_HOOK_PROGRAM_ADDRESS", // required when the target config was created with a transfer hook; must match the config's hook program
 
     "metadata": {
@@ -218,11 +218,11 @@
       /* Only use the following parameters for createBaseToken if you don't have an existing metadata uri
        * This will create an image uri and a new metadata uri and upload everything to Irys
        */
-      "image": "./data/image/test-token.jpg", // this can be a URL of the image address (e.g. https://example.com/token-image.png) or the image file path (e.g. ./data/image/test-token.jpg)
-      "description": "TOKEN_DESCRIPTION", // token description
-      "website": "https://example.com", // project website
-      "twitter": "https://x.com/yourproject", // twitter URL
-      "telegram": "https://t.me/yourproject" // telegram URL
+      "image": "https://cdn.jsdelivr.net/gh/zantric/SL@v1.0.0/IMG_0503.png", // this can be a URL of the image address (e.g. https://example.com/token-image.png) or the image file path (e.g. ./data/image/test-token.jpg)
+      "description": "An official token for transactions and stake on the blockchain network", // token description
+      "website": "https://meteora.ag", // project website
+      "twitter": "https://x.com", // twitter URL
+      "telegram": "https://t.me" // telegram URL
     }
   },
 
@@ -240,6 +240,6 @@
    * 1. dbc-transfer-pool-creator
    */
   "dbcTransferPoolCreator": {
-    "newCreator": "YOUR_NEW_CREATOR_ADDRESS" // new creator address
+    "newCreator": "GYSLXPFCTzbQ6uLKoHJdSyiaHXoFDBCzXZisY87drhLc" // new creator address
   }
 }
