@@ -30,7 +30,7 @@
      * 2. migrationQuoteThreshold
      */
     "percentageSupplyOnMigration": 20, // percentage of total token supply to be migrated
-    "migrationQuoteThreshold": 10, // migration quote threshold needed to migrate the DBC token pool
+    "migrationQuoteThreshold": 2, // migration quote threshold needed to migrate the DBC token pool
 
     /* Only use the following parameters for buildCurveMode: 1 (buildCurveWithMarketCap)
      * 1. initialMarketCap
